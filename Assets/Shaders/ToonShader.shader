@@ -1,4 +1,6 @@
-﻿Shader "Custom/ToonShader" {
+﻿// Upgrade NOTE: replaced 'mul(UNITY_MATRIX_MVP,*)' with 'UnityObjectToClipPos(*)'
+
+Shader "Custom/ToonShader" {
 	Properties {
 		_Color ("Color", Color) = (1,1,1,1)
 		_SpecularPower("Specular Power", Range(0.0,1.0)) = 0.01
