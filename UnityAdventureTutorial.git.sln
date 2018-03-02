@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio for Mac
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityAdventureTutorial.git", "UnityAdventureTutorial.git.csproj", "{331B2B8C-9746-6AC7-40BB-95BD59B52BA8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityAdventureTutorial.git.Editor", "UnityAdventureTutorial.git.Editor.csproj", "{5AF37DC3-0152-3A2A-747F-621447B6D082}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{331B2B8C-9746-6AC7-40BB-95BD59B52BA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{331B2B8C-9746-6AC7-40BB-95BD59B52BA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{331B2B8C-9746-6AC7-40BB-95BD59B52BA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{331B2B8C-9746-6AC7-40BB-95BD59B52BA8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5AF37DC3-0152-3A2A-747F-621447B6D082}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AF37DC3-0152-3A2A-747F-621447B6D082}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AF37DC3-0152-3A2A-747F-621447B6D082}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5AF37DC3-0152-3A2A-747F-621447B6D082}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
