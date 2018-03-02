@@ -1,19 +1,19 @@
 ﻿public class PickedUpItemReaction : DelayedReaction
 {
-    public Item item;               // The item asset to be added to the Inventory.
+    public Item item;
 
 
-    private Inventory inventory;    // Reference to the Inventory component.
+    //private Inventory inventory;
 
 
     protected override void SpecificInit()
     {
-        inventory = FindObjectOfType<Inventory>();
+        //inventory = FindObjectOfType<Inventory>();
     }
 
 
     protected override void ImmediateReaction()
     {
-        inventory.AddItem(item);
+        //inventory.AddItem(item);
     }
 }

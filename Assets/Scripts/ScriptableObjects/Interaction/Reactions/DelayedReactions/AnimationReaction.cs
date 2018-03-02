@@ -2,11 +2,11 @@
 
 public class AnimationReaction : DelayedReaction
 {
-    public Animator animator;   // The Animator that will have its trigger parameter set.
-    public string trigger;      // The name of the trigger parameter to be set.
+    public Animator animator;
+    public string trigger;
 
 
-    private int triggerHash;    // The hash representing the trigger parameter to be set.
+    private int triggerHash;
 
 
     protected override void SpecificInit ()
