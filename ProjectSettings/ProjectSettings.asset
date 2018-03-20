@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 14
-  productGUID: 00000000000000000000000000000000
+  productGUID: 2fb5353755935674a8a2640c7db33567
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   defaultScreenOrientation: 4
@@ -237,7 +237,7 @@ PlayerSettings:
   iOSURLSchemes: []
   iOSBackgroundModes: 0
   iOSMetalForceHardShadows: 0
-  metalEditorSupport: 0
+  metalEditorSupport: 1
   metalAPIValidation: 1
   iOSRenderExtraFrameOnPause: 1
   appleDeveloperTeamID: 
@@ -268,7 +268,7 @@ PlayerSettings:
       m_Icon: {fileID: 0}
       m_Width: 128
       m_Height: 128
-      m_Kind: 0
+      m_Kind: 49422
   - m_BuildTarget: Standalone
     m_Icons:
     - serializedVersion: 2
@@ -855,7 +855,7 @@ PlayerSettings:
     Purchasing: 0
     UNet: 0
     Unity_Ads: 0
-  facebookSdkVersion: 
+  facebookSdkVersion: 7.9.4
   apiCompatibilityLevel: 2
   cloudProjectId: 
   projectName: 
