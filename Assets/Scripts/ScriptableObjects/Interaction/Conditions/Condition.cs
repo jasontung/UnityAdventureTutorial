@@ -9,7 +9,21 @@
 // are on ConditionCollections are compared to the
 // AllConditions asset to determine whether other Reactions
 // should happen.
+[System.Serializable]
 public class Condition
 {
-    
+    public enum ConditionName
+    {
+        PickedUpCoin,
+        HasCoin,
+        PickedUpFish,
+        PickedUpCoffee,
+        HasCoffee,
+        BirdDisturbed,
+        PickedUpGlasses,
+        HasGlasses,
+        LaserDeactivated
+    }
+    public ConditionName description;
+    public bool satisfied;
 }

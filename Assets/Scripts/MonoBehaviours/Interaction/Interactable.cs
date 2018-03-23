@@ -22,7 +22,7 @@ public class Interactable : MonoBehaviour
         for (int i = 0; i < conditionCollections.Length; i++)
         {
             // ... then check and potentially react to each.  If the reaction happens, exit the function.
-            //if (conditionCollections[i].CheckAndReact ())
+            if (conditionCollections[i].CheckAndReact ())
                 return;
         }
 
