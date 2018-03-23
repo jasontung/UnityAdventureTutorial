@@ -50,7 +50,7 @@ public class SceneController : MonoBehaviour
         // If a fade isn't happening then start fading and switching scenes.
         if (!isFading)
         {
-            //StartCoroutine (FadeAndSwitchScenes (sceneReaction.sceneName));
+            StartCoroutine (FadeAndSwitchScenes (sceneReaction.sceneName));
         }
     }
 
