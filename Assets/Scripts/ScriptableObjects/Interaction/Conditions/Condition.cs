@@ -9,9 +9,7 @@
 // are on ConditionCollections are compared to the
 // AllConditions asset to determine whether other Reactions
 // should happen.
-public class Condition : ScriptableObject
+public class Condition
 {
-    public string description;      // A description of the Condition, for example 'BeamsOff'.
-    public bool satisfied;          // Whether or not the Condition has been satisfied, for example are the beams off?
-    public int hash;                // A number which represents the description.  This is used to compare ConditionCollection Conditions to AllConditions Conditions.
+    
 }

@@ -14,6 +14,6 @@ public class ConditionReaction : Reaction
 
     protected override void ImmediateReaction ()
     {
-        condition.satisfied = satisfied;
+        //condition.satisfied = satisfied;
     }
 }
