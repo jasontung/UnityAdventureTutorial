@@ -18,8 +18,8 @@ public class ConditionCollection
             if (!AllConditions.CheckCondition(requiredConditions[i]))
                 return false;
         }
-        if (reactionCollection)
-            reactionCollection.React();
+        //if (reactionCollection)
+            //reactionCollection.React();
         return true;
     }
 }
