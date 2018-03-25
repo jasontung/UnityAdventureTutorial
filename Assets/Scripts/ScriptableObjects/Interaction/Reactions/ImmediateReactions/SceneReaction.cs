@@ -17,6 +17,6 @@ public class SceneReaction : Reaction
 	protected override void ImmediateReaction()
 	{
         playerSaveData.Save(PlayerMovement.startingPositionKey, startingPointInLoadedScene);
-        sceneController.FadeAndLoadScene(this);
+        sceneController.FadeAndLoadScene(sceneName);
 	}
 }
