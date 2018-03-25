@@ -9,15 +9,5 @@
 // play through.
 public class DataResetter : MonoBehaviour
 {
-    public ResettableScriptableObject[] resettableScriptableObjects;    // All of the scriptable object assets that should be reset at the start of the game.
-
-
-	private void Awake ()
-    {
-        // Go through all the scriptable objects and call their Reset function.
-	    for (int i = 0; i < resettableScriptableObjects.Length; i++)
-	    {
-	        resettableScriptableObjects[i].Reset ();
-	    }
-	}
+    
 }
