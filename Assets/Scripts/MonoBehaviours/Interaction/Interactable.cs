@@ -18,11 +18,6 @@ public class Interactable : MonoBehaviour
     // This is called when the player arrives at the interactionLocation.
     public void Interact ()
     {
-        for (int i = 0; i < conditionCollections.Length; i++)
-        {
-            if (conditionCollections[i].CheckAndReact())
-                return;
-        }
-        defaultReactionCollection.React();
+        
     }
 }

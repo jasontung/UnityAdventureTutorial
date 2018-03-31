@@ -781,6 +781,81 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8902cc0c7910bcd4ab3ccacb67555809, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &1076112731
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1583218050369896, guid: b41aa531b3a1e4eed8fd04272c00c3d8,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1076112735}
+  - component: {fileID: 1076112732}
+  - component: {fileID: 1076112734}
+  - component: {fileID: 1076112733}
+  m_Layer: 0
+  m_Name: GlassesReaction
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1076112732
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 114061962084023232, guid: b41aa531b3a1e4eed8fd04272c00c3d8,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1076112731}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1fc7ecfe98531f2429694b8c81a6748a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1076112733
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 114302227205301756, guid: b41aa531b3a1e4eed8fd04272c00c3d8,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1076112731}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2392585f8a4e53a42a0ddc8de25e64d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audioSource: {fileID: 0}
+  audioClip: {fileID: 8300000, guid: 707d533b18a364142897701cc3b4027e, type: 3}
+  delay: 0
+--- !u!114 &1076112734
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 114069021239004820, guid: b41aa531b3a1e4eed8fd04272c00c3d8,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1076112731}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: Hey Frank, you shouldn't go through without the boss's coffee.
+  textColor: {r: 0, g: 1, b: 1, a: 1}
+  delay: 0
+--- !u!4 &1076112735
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4322681011904678, guid: b41aa531b3a1e4eed8fd04272c00c3d8,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1076112731}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1746140239}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1094123811
 Prefab:
   m_ObjectHideFlags: 0
@@ -1730,7 +1805,7 @@ MonoBehaviour:
     requiredConditions:
     - description: 7
       satisfied: 1
-    reactionCollection: {fileID: 1955368934}
+    reactionCollection: {fileID: 1076112732}
   defaultReactionCollection: {fileID: 1746140240}
 --- !u!114 &1921767126
 MonoBehaviour:
@@ -1746,47 +1821,6 @@ MonoBehaviour:
   delay: 0
   animator: {fileID: 0}
   trigger: 
---- !u!1 &1955368932
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 105628, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 1955368933}
-  - component: {fileID: 1955368934}
-  m_Layer: 0
-  m_Name: GlassesReaction
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1955368933
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 424910, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1955368932}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1746140239}
-  m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1955368934
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11441280, guid: d48734bd22479a14cb1a52b40aa09db4,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1955368932}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1fc7ecfe98531f2429694b8c81a6748a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &2083998402 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 105628, guid: d48734bd22479a14cb1a52b40aa09db4, type: 2}
